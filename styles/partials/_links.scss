@@ -32,7 +32,8 @@
   }
 
   &-white {
-    &:hover {
+    &:hover, &:focus {
+      text-decoration: none;
       color: white;
     }
 
