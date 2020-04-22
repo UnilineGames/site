@@ -1,0 +1,43 @@
+.link {
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+  position: relative;
+
+  &:before {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    transition: width .4s ease-in-out;
+  }
+
+  &:hover {
+    text-decoration: none;
+    cursor: pointer;
+
+    &:before {
+      width: 100%;
+    }
+  }
+
+  &:hover, &:focus, &:active {
+    outline: none;
+  }
+
+  &-email {
+    padding-bottom: 2px;
+  }
+
+  &-white {
+    &:hover {
+      color: white;
+    }
+
+    &:before {
+      background-color: white;
+    }
+  }
+}

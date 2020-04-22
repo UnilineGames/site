@@ -1,0 +1,15 @@
+body {
+  min-height: 100vh;
+  font-family: $font-default;
+}
+
+.content-main {
+  //margin-top: 100vh;
+  min-height: 100vh;
+  position: relative;
+  z-index: 1;
+}
+
+.owl-theme .owl-dots .owl-dot {
+  outline: none;
+}

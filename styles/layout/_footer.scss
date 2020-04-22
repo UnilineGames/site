@@ -1,0 +1,15 @@
+.footer {
+  margin-top: 35px;
+  height: 70px;
+  padding-top: 10px;
+  z-index: 5;
+  @include respond-below(sm) {
+    padding-top: 0;
+    height: 90px;
+  }
+
+  &_link {
+    color: white;
+    margin-bottom: 15px;
+  }
+}

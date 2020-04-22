@@ -1,0 +1,17 @@
+@import "./abstract/variables";
+@import "./abstract/mixins";
+
+@import "./vendors/bootstrap";
+
+@import "./base/normalize";
+@import "./base/background";
+@import "./base/base";
+
+@import "./partials/links";
+@import "./partials/game";
+
+@import "./layout/header";
+@import "./layout/footer";
+
+@import '~owl.carousel/src/scss/owl.carousel';
+@import '~owl.carousel/src/scss/owl.theme.default';

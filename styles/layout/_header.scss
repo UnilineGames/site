@@ -1,0 +1,134 @@
+.header {
+  height: 100vh;
+  width: 100%;
+
+  &-inner {
+    height: 100vh;
+    width: 100%;
+    background: transparent;
+
+    &.affix {
+      height: 70px;
+      background: rgba(20, 0, 35, .8);
+      top: 0;
+      z-index: 5;
+      @include respond-below(sm) {
+        height: 50px;
+      }
+
+      .header {
+        &-wrap {
+          height: 70px;
+          @include respond-below(sm) {
+            padding: 0 15px;
+            height: 50px;
+          }
+        }
+
+        &_logo {
+          width: 185px;
+          height: 50px;
+          transition: all .2s ease-in-out;
+          @include respond-below(sm) {
+            width: 112px;
+            height: 30px;
+          }
+        }
+
+        &_subinfo {
+          display: none;
+        }
+
+        &_email {
+          color: white;
+          position: absolute;
+          top: 50%;
+          transform: translateY(-50%);
+          right: 0;
+          display: block;
+          text-align: right;
+          font-size: 16px;
+          @include respond-below(sm) {
+            right: 15px;
+            font-size: 12px;
+          }
+        }
+      }
+
+      &-top {
+        transition: all .4s ease-in-out;
+        pointer-events: none;
+        @include respond-below(sm) {
+          .header {
+            &-wrap {
+              padding: 0 15px;
+            }
+
+            &_logo {
+              width: 100%;
+              position: relative;
+              transform: none;
+              margin-top: 20px;
+              top: 15vh;
+            }
+
+            &_subinfo {
+              width: calc(100% - 30px);
+              transform: none;
+              display: block;
+              bottom: 0;
+              height: 50vh;
+              vertical-align: bottom;
+              top: auto;
+              right: auto;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  &-wrap {
+    position: relative;
+    height: 100vh;
+  }
+
+  &_logo {
+    width: 45%;
+    max-width: 560px;
+    max-height: 150px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: all .4s ease-in-out;
+
+  }
+
+  &_subinfo {
+    color: white;
+    width: 45%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+  }
+
+  &_h {
+    font-family: $font-default;
+    font-size: 30px;
+    line-height: 1.1;
+    margin-bottom: 15px;
+    font-weight: 300;
+  }
+
+  &_text {
+    font-family: $font-secondary;
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 300;
+  }
+
+  &_email {
+    display: none;
+  }
+}
