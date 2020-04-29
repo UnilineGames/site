@@ -22,11 +22,16 @@
               <div class="header_h">GameDev gathering</div>
               <div class="header_text">{{ $t('header.subtitle') }}</div>
             </div>
-            <div class="header_email">
-              <a
-                class="link link-email link-white"
-                href="mailto:uniline.games@gmail.com"
-              >uniline.games@gmail.com</a>
+            <div class="header_social">
+              <div class="header_email">
+                <a
+                  class="link link-email link-white"
+                  href="mailto:uniline.games@gmail.com"
+                >
+                  uniline.games@gmail.com
+                </a>
+              </div>
+              <social></social>
             </div>
           </div>
         </div>
@@ -36,8 +41,10 @@
 </template>
 
 <script>
+  import Social from "../shared/social";
   export default {
     name: 'header',
+    components: {Social},
     data: function () {
       return {
         offsetValue: 0,

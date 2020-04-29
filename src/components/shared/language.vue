@@ -28,9 +28,8 @@
     },
     methods: {
       setLocale(locale) {
-        console.log(document.getElementsByClassName('owl-carousel'));
         this.$i18n.locale = locale;
-        document.getElementsByClassName('owl-carousel');
+        this.$root.$emit('carouselUpdate');
       }
     }
   };

@@ -78,6 +78,7 @@
         <div class="col-xs-12">
           <div class="game_screens">
             <carousel
+              v-if="renderComponent"
               ref='carousel'
               id="game_screens-slider"
               :items="4"
@@ -122,8 +123,21 @@
       'gameScreens',
       'gameDescription',
     ],
+    data() {
+      return {
+        renderComponent: true,
+      };
+    },
     components: {
       carousel,
+    },
+    mounted() {
+      this.$root.$on('carouselUpdate', ()=> {
+        this.renderComponent = false;
+        this.$nextTick(() => {
+          this.renderComponent = true;
+        });
+      })
     },
   };
 </script>

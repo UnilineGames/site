@@ -39,7 +39,7 @@
           display: none;
         }
 
-        &_email {
+        &_social {
           color: white;
           position: absolute;
           top: 50%;
@@ -52,7 +52,12 @@
             right: 15px;
             font-size: 12px;
           }
+
+          .header_email, .social_group{
+            display: inline-block;
+          }
         }
+
       }
 
       &-top {
@@ -128,7 +133,7 @@
     font-weight: 300;
   }
 
-  &_email {
+  &_social {
     display: none;
   }
 }
