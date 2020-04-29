@@ -4,16 +4,28 @@ export const GamesData = [
     logo: 'content/koth/logo.jpg',
     name: 'King of the hill',
     title: 'Стань мастером ведения боя с толпой противников!',
-    tags: ['Стратегии', 'Без интернета'],
+    tags: ['strategies', 'simulators', 'without_the_internet'],
     videoLink: 'https://www.youtube.com/embed/rhvaQT-Fn0k',
     playMarketLink: 'https://play.google.com/store/apps/details?id=com.uniline.kingofthehill',
-    screens: [
-      'content/koth/screen/1.png',
-      'content/koth/screen/2.png',
-      'content/koth/screen/3.png',
-      'content/koth/screen/4.png',
-      'content/koth/screen/5.png',
-    ],
+    screens: {
+      ru: [
+        'content/koth/screen/ru/1.png',
+        'content/koth/screen/ru/2.png',
+        'content/koth/screen/ru/3.png',
+        'content/koth/screen/ru/4.png',
+        'content/koth/screen/ru/5.png',
+      ],
+      en: [
+        'content/koth/screen/en/1.png',
+        'content/koth/screen/en/2.png',
+        'content/koth/screen/en/3.png',
+        'content/koth/screen/en/4.png',
+        'content/koth/screen/en/5.png',
+        'content/koth/screen/en/6.png',
+        'content/koth/screen/en/7.png',
+        'content/koth/screen/en/8.png',
+      ]
+    },
     description: 'Царь горы - Довольно увлекательный новый проект в категории стратегии без интернета\n' +
       '            и стратегии оффлайн. Симулятор уличного боя в формате стенка на стенку. Так же\n' +
       '            присутствует прокачка уровня героев.\n' +
@@ -34,23 +46,30 @@ export const GamesData = [
     name: 'Monica\'s bakery',
     title: 'Простая и забавная игра на память, найди пару и улучши свою пекарню!',
     tags: [
-      'Казуальная игра',
-      'Головоломка',
-      'Игры на память',
-      'Игры на концентрацию',
-      'Совпадение изображений',
-      'Головоломка на память',
-      'Найди пару',
-      'Без интернета',
+      'causal',
+      'puzzle',
+      'memory_game',
+      'concentration',
+      "image_matching",
+      'memory_puzzle',
+      'match_pair',
+      'without_the_internet',
     ],
     playMarketLink: 'https://play.google.com/store/apps/details?id=com.uniline.mnemonica',
-    screens: [
-      'content/mnemonica/screen/1.png',
-      'content/mnemonica/screen/2.png',
-      'content/mnemonica/screen/3.png',
-      'content/mnemonica/screen/4.png',
-      'content/mnemonica/screen/5.png',
-    ],
+    screens: {
+      ru: [
+        'content/mnemonica/screen/ru/1.png',
+        'content/mnemonica/screen/ru/2.png',
+        'content/mnemonica/screen/ru/3.png',
+        'content/mnemonica/screen/ru/4.png',
+        'content/mnemonica/screen/ru/5.png',
+      ],
+      en: [
+        'content/mnemonica/screen/en/1.png',
+        'content/mnemonica/screen/en/2.png',
+        'content/mnemonica/screen/en/3.png',
+      ],
+    },
     description: 'Моника-молодая и прогрессивная девушка. Она любит готовить, и у нее есть небольшая пекарня. ' +
       'Ей нужна помощь. Помогите Монике готовить и обслуживать клиентов. ' +
       'Вместе вы сделаете лучшую пекарней в городе!<br>' +

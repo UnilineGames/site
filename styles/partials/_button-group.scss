@@ -1,0 +1,13 @@
+.btn-group {
+  &> .btn.btn-default {
+    background: rgba(20, 0, 35, 0.8);
+    color: white;
+    transition: all .5s ease-in-out;
+
+    &.active, &:active {
+      color: rgba(20, 0, 35, 0.8);
+      background: #f4f4f4;
+      font-weight: bold;
+    }
+  }
+}

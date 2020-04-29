@@ -20,7 +20,7 @@
             </div>
             <div class="header_subinfo">
               <div class="header_h">GameDev gathering</div>
-              <div class="header_text">Мы делаем крутые, интересные, веселые мобильные игры</div>
+              <div class="header_text">{{ $t('header.subtitle') }}</div>
             </div>
             <div class="header_email">
               <a
@@ -47,6 +47,7 @@
     mounted() {
       window.setTimeout(() => {
         this.offsetValue = (this.$el.offsetHeight / 2 - this.$refs.headerLogo.offsetHeight / 2);
+        console.log(navigator.language);
       }, 100);
     },
     created () {

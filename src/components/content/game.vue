@@ -8,18 +8,18 @@
               <img
                 class="img-responsive"
                 :src="require('@/assets/img/' + gameLogo)"
-                :alt="gameName"
+                :alt="$t(gameId + '.name')"
               />
             </div>
-            <div class="game_h">{{ gameName }}</div>
-            <div class="game_sub-h">{{ gameTitle }}</div>
+            <div class="game_h">{{ $t(gameId + '.name') }}</div>
+            <div class="game_sub-h">{{ $t(gameId + '.title') }}</div>
             <div class="game_tag-list">
               <div
                 class="game_tag"
                 v-for="tag in gameTags"
                 :key="tag"
               >
-                {{ tag }}
+                {{ $t('tags.' + tag) }}
               </div>
             </div>
           </div>
@@ -45,7 +45,7 @@
         <div class="col-md-6">
           <div
             class="game_description"
-            v-html="gameDescription"
+            v-html="$t(gameId + '.description')"
           ></div>
         </div>
         <div class="col-md-6">
@@ -53,7 +53,13 @@
             class="game_video"
             :class="!gameVideoLink ? 'game_video--empty' : ''"
           >
-            <span class="game_video--empty-text" v-if="!gameVideoLink">Уже загружается...</span>
+            <span
+              class="game_video--empty-text"
+              v-if="!gameVideoLink"
+            >
+              {{$t('content.video.empty')}}
+            </span>
+
             <iframe
               v-if="gameVideoLink"
               class="game_video-iframe"
@@ -63,7 +69,8 @@
               frameborder="0"
               allow="autoplay; encrypted-media"
               allowfullscreen
-            ></iframe>
+            >
+            </iframe>
           </div>
         </div>
       </div>
@@ -71,6 +78,8 @@
         <div class="col-xs-12">
           <div class="game_screens">
             <carousel
+              ref='carousel'
+              id="game_screens-slider"
               :items="4"
               :loop="true"
               :nav="false"
@@ -85,11 +94,10 @@
               }"
             >
               <img
-                v-for="screen in gameScreens"
+                v-for="screen in gameScreens[$i18n.locale]"
                 :key="screen"
                 :src="require('@/assets/img/' + screen)"
               />
-
             </carousel>
           </div>
         </div>
@@ -104,6 +112,7 @@
   export default {
     name: 'game',
     props: [
+      'gameId',
       'gameLogo',
       'gameName',
       'gameTitle',

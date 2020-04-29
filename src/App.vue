@@ -1,10 +1,11 @@
 <template>
   <div id="app">
-    <Header id="header"></Header>
+    <Header id="header" name="header"></Header>
     <div class="content-main">
       <Game
         v-for="gameData in gamesData"
         :key="gameData.id"
+        :game-id="gameData.id"
         :game-description="gameData.description"
         :game-logo="gameData.logo"
         :game-name="gameData.name"
@@ -16,7 +17,7 @@
       >
       </Game>
     </div>
-    <Footer></Footer>
+    <Footer id="footer"></Footer>
   </div>
 </template>
 

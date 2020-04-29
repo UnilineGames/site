@@ -1,0 +1,35 @@
+{
+  "header": {
+    "subtitle": "We make cool, interesting, fun mobile games"
+  },
+  "koth": {
+    "name": "King of the hill",
+    "title": "Become a master of battles with a crowd of opponents!",
+    "description": "King of the Hill is a fascinating new project. strategy games offline is a Epic battle simulator format wall to wall and leveling heroes. The goal is so close and so far away, you need to defeat all enemies and capture enemy territory.<br> <br>  \n The story is simple - you are confronted by a mysterious bad guy who will shown only in the final, intrigue;)<br> <br>  \n Every street fighter in the game has a unique style and features. In the process of gameplay you will encounter strong enemies! deadly ninjas will fight for you! fight with no rules like mma!<br><br>  \n Battle games like King of the Hill will bring you a lot of pleasure, you will not notice how time flies!<br> <br>  \n Feautures:<br><br>   \n - Open all 3 worlds in King of the hill, in each world you are waiting for new challenges!<br><br>   \n - Upgrade your fighters to stay King of the hill <br><br>  \n - More than 25 levels and 3 difficulty levels<br><br>   \n - You can play offline, games without internet. <br> <br> \n - Fascinating gameplay that does not leave you indifferent!<br><br>   \n - Never stop epic battle simulator!"
+  },
+  "mnemonica": {
+    "name": "Monica's bakery",
+    "title": "Simple casual game with funny animations and lovely Monica and her friends.",
+    "description": "Monica is young and progressive girl. She likes cooking and she own small bakery. She needs help. Help Monicas cook and serve customers.<br>  \n Together you will become a best bakery in the city!<br>  \n So let's join and have fun!<br> <br>  \n All you need to do is find picture match and open a new recipe for your bakery.<br>  \n In progress you will find new desserts and learn how to cook.<br> <br>  \n Your visual memory will help make it faster and better. Rotate the beautiful pictures and watching how your desserts bring happiness to your customers!<br> <br>  \n Open the new cafes and corner bakery with other desserts. <br> <br> \n This game will help improve your memory and concentration."
+  },
+  "tags": {
+    "strategies": "Strategies",
+    "simulators": "Simulators",
+    "causal": "Causal",
+    "puzzle": "Puzzle",
+    "memory_game": "Memory game",
+    "concentration": "Concentration",
+    "image_matching": "Image matching",
+    "memory_puzzle": "Memory puzzle",
+    "match_pair": "Match pair",
+    "without_the_internet": "Without the internet"
+  },
+  "content": {
+    "video": {
+      "empty": "Already loading..."
+    }
+  },
+  "footer": {
+    "privacy_policy": "Privacy policy"
+  }
+}

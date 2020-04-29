@@ -6,10 +6,17 @@
   @include respond-below(sm) {
     padding-top: 0;
     height: 90px;
+
+    .language-group {
+      margin-bottom: 25px;
+    }
   }
 
   &_link {
     color: white;
     margin-bottom: 15px;
+    @include respond-below(sm) {
+      margin-bottom: 25px;
+    }
   }
 }
