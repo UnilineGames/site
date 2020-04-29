@@ -63,6 +63,8 @@ export const GamesData = [
         'content/mnemonica/screen/ru/3.png',
         'content/mnemonica/screen/ru/4.png',
         'content/mnemonica/screen/ru/5.png',
+        'content/mnemonica/screen/ru/6.png',
+        'content/mnemonica/screen/ru/7.png',
       ],
       en: [
         'content/mnemonica/screen/en/1.png',
