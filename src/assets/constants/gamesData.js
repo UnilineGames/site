@@ -68,6 +68,9 @@ export const GamesData = [
         'content/mnemonica/screen/en/1.png',
         'content/mnemonica/screen/en/2.png',
         'content/mnemonica/screen/en/3.png',
+        'content/mnemonica/screen/en/4.png',
+        'content/mnemonica/screen/en/5.png',
+        'content/mnemonica/screen/en/7.png',
       ],
     },
     description: 'Моника-молодая и прогрессивная девушка. Она любит готовить, и у нее есть небольшая пекарня. ' +
