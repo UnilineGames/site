@@ -1,6 +1,10 @@
 <template>
     <div class="social_group">
-        <a class="btn social-btn" href="https://twitter.com/uniline_games" target="_blank">
+        <a
+            class="btn social-btn"
+            href="https://twitter.com/uniline_games"
+            target="_blank"
+        >
             <twitter></twitter>
         </a>
     </div>

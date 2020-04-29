@@ -24,12 +24,20 @@ $fast: .2s;
       will-change: transform;
     }
 
+    #twitter {
+      path {
+        fill: transparent;
+        transition: fill 1.2s ease-in-out;
+      }
+    }
+
     &:hover {
-      svg {
+      #twitter {
         path {
           stroke-dasharray: 1901;
           stroke-dashoffset: 1901;
           animation: dash 1.2s linear forwards;
+          fill: rgba(255, 255, 255, 0.3);
         }
 
         @keyframes dash {
