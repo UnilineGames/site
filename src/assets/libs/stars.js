@@ -149,10 +149,8 @@ function Constellation(canvas) {
     if (($(window).scrollTop() > config.height / 2) && _this.loopId) {
       cancelAnimationFrame(_this.loopId);
       _this.loopId = 0;
-      console.log(_this.loopId);
     } else if ($(window).scrollTop() < config.height / 2 && (_this.loopId === 0)) {
       _this.loop(_this.createStars);
-      console.log(_this.loopId);
     }
   };
 }

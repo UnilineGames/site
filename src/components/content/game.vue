@@ -95,7 +95,7 @@
               }"
             >
               <img
-                v-for="screen in gameScreens[$i18n.locale]"
+                v-for="(screen) in gameScreens[$i18n.locale]"
                 :key="screen"
                 :src="require('@/assets/img/' + screen)"
               />

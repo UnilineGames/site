@@ -54,7 +54,6 @@
     mounted() {
       window.setTimeout(() => {
         this.offsetValue = (this.$el.offsetHeight / 2 - this.$refs.headerLogo.offsetHeight / 2);
-        console.log(navigator.language);
       }, 100);
     },
     created () {

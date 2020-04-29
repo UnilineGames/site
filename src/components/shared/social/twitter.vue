@@ -18,11 +18,6 @@
 <script>
     export default {
         name: "twitter",
-        mounted() {
-            var path = document.querySelector('#check');
-            var len = Math.round(path.getTotalLength() );
-            console.log("Длина пути - " + len);
-        }
     }
 </script>
 
