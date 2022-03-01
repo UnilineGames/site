@@ -56,7 +56,7 @@ export const GamesData = [
       'without_the_internet',
     ],
     playMarketLink: 'https://play.google.com/store/apps/details?id=com.uniline.mnemonica',
-    videoLink: 'https://www.youtube.com/shorts/xnaAlmlYPF8?&ab_channel=%D0%9C%D0%B0%D0%BA%D1%81%D0%B8%D0%BC%D0%9D%D0%B8%D0%BA%D0%B8%D1%82%D0%B8%D0%BD',
+    videoLink: 'https://www.youtube.com/embed/xnaAlmlYPF8',
     screens: {
       ru: [
         'content/mnemonica/screen/ru/1.png',
@@ -97,25 +97,78 @@ export const GamesData = [
       'without_the_internet',
     ],
     playMarketLink: 'https://play.google.com/store/apps/details?id=com.uniline.basketballweekend',
-    videoLink: 'https://www.youtube.com/shorts/xnaAlmlYPF8?&ab_channel=%D0%9C%D0%B0%D0%BA%D1%81%D0%B8%D0%BC%D0%9D%D0%B8%D0%BA%D0%B8%D1%82%D0%B8%D0%BD',
+    videoLink: 'https://www.youtube.com/embed/EIHcLCN60Cc',
     screens: {
       ru: [
-        'content/basketball/screen/1.png',
-        'content/basketball/screen/2.png',
-        'content/basketball/screen/3.png',
-        'content/basketball/screen/4.png',
-        'content/basketball/screen/5.png',
-        'content/basketball/screen/6.png',
-        'content/basketball/screen/7.png',
+        'content/basketball/screen/1.jpg',
+        'content/basketball/screen/2.jpg',
+        'content/basketball/screen/3.jpg',
+        'content/basketball/screen/4.jpg',
+        'content/basketball/screen/5.jpg',
+        'content/basketball/screen/6.jpg',
+        'content/basketball/screen/7.jpg',
       ],
       en: [
-        'content/basketball/screen/1.png',
-        'content/basketball/screen/2.png',
-        'content/basketball/screen/3.png',
-        'content/basketball/screen/4.png',
-        'content/basketball/screen/5.png',
-        'content/basketball/screen/6.png',
-        'content/basketball/screen/7.png',
+        'content/basketball/screen/1.jpg',
+        'content/basketball/screen/2.jpg',
+        'content/basketball/screen/3.jpg',
+        'content/basketball/screen/4.jpg',
+        'content/basketball/screen/5.jpg',
+        'content/basketball/screen/6.jpg',
+        'content/basketball/screen/7.jpg',
+      ],
+    }
+  },
+  {
+    id: 'cof',
+    logo: 'content/cof/logo.jpg',
+    tags: [
+      'causal',
+      'without_the_internet',
+    ],
+    playMarketLink: 'https://play.google.com/store/apps/details?id=com.uniline.catchorfall',
+    videoLink: 'https://www.youtube.com/embed/VtnfK493BVQ',
+    screens: {
+      ru: [
+        'content/cof/screen/1.png',
+        'content/cof/screen/2.png',
+        'content/cof/screen/3.png',
+        'content/cof/screen/4.png',
+        'content/cof/screen/5.png',
+        'content/cof/screen/6.png',
+        'content/cof/screen/7.png',
+      ],
+      en: [
+        'content/cof/screen/1.png',
+        'content/cof/screen/2.png',
+        'content/cof/screen/3.png',
+        'content/cof/screen/4.png',
+        'content/cof/screen/5.png',
+        'content/cof/screen/6.png',
+        'content/cof/screen/7.png',
+      ],
+    }
+  },
+  {
+    id: 'cvr',
+    logo: 'content/cvr/logo.jpg',
+    tags: [
+      'causal',
+      'without_the_internet',
+    ],
+    playMarketLink: 'https://play.google.com/store/apps/details?id=com.uniline.catsvsraccoons',
+    screens: {
+      ru: [
+        'content/cvr/screen/1.png',
+        'content/cvr/screen/2.png',
+        'content/cvr/screen/3.png',
+        'content/cvr/screen/4.png',
+      ],
+      en: [
+        'content/cvr/screen/1.png',
+        'content/cvr/screen/2.png',
+        'content/cvr/screen/3.png',
+        'content/cvr/screen/4.png',
       ],
     }
   },

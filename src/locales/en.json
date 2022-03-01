@@ -15,11 +15,22 @@
   "basketball": {
     "name": "Basketball Weekend Street game",
     "title": "Experience a three-point contest with this outstanding basketball games!",
-    "description": "Experience a three-point contest first hand with this outstanding basketball games! Shoot 3 pointers from downtown, make buckets right, left and center, and put yourself in the shoes of a pro basketball player! \n Fan of sports basketball games? In that case, you wouldn’t want to miss our street basketball shooting games in 3d! \n Experience the unique experience of playing in tournament mode. Compete in street basketball game with cool players. In tournament mode, you can earn experience points that will allow you to play at a higher level.\nUnlock new cool balls in practice mode. The higher your level in street basketball - the more valuable the ball you get.\nPlay street basketball games everywhere - at school, on the subway, on the street, at home, anywhere."
+    "description": "Experience a three-point contest first hand with this outstanding basketball games! Shoot 3 pointers from downtown, make buckets right, left and center, and put yourself in the shoes of a pro basketball player! \n <br><br>Fan of sports basketball games? In that case, you wouldn’t want to miss our street basketball shooting games in 3d! \n <br><br>Experience the unique experience of playing in tournament mode. Compete in street basketball game with cool players. In tournament mode, you can earn experience points that will allow you to play at a higher level. \n <br><br>Unlock new cool balls in practice mode. The higher your level in street basketball - the more valuable the ball you get. \n <br><br>Play street basketball games everywhere - at school, on the subway, on the street, at home, anywhere."
+  },
+  "cof": {
+    "name": "Catch or fall.io - Fall guys",
+    "title": "Stumble Guys races, fall man down with 3d fallstar! run guys Fall guys knockout",
+    "description": "Your task is to hold out as long as possible and not fall! But you are not alone in this arena! You have as many as 10 opponents, and you must defeat them all! To become a champion, you need to stay last in the arena, which is constantly being destroyed right under your feet! Hold on as long as possible and don't fall! Easy runner do not fall guys! Fall guys ultimate knockout. rơi xuống \n <br><br>The rules have never been so simple: just jump on the platforms and don't fall down! Who fell lost! The last survivor stickman becomes the winner! stumble guys \n <br><br>Can you handle it? do not fall guys! its simple runner. Can you handle this?"
+  },
+  "cvr": {
+    "name": "Cats vs Raccoons",
+    "title": "Don't let the raccoons steal from cat's bowl, otherwise the cat will go hungry",
+    "description": "Don't let raccoons steal from the cat's bowl or the cat will get hungry. Draw the symbols over the raccoons and get them out of the lawn. \n <br><br>Cat treats are in danger! help protect them."
   },
   "tags": {
     "strategies": "Strategies",
     "simulators": "Simulators",
+    "basketball": "Basketball",
     "causal": "Causal",
     "puzzle": "Puzzle",
     "memory_game": "Memory game",
