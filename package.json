@@ -16,7 +16,7 @@
   "dependencies": {
     "bootstrap-vue": "^2.12.0",
     "core-js": "^3.6.4",
-    "node-sass": "^4.13.1",
+    "node-sass": "^7.0.3",
     "uiv": "^0.34.4",
     "vue": "^2.6.11",
     "vue-i18n": "^8.17.3",
