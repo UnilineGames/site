@@ -19,7 +19,6 @@
     "bootstrap-vue": "^2.12.0",
     "core-js": "^3.6.4",
     "express": "^4.18.2",
-    "node-sass": "^7.0.3",
     "uiv": "^0.34.4",
     "vue": "^2.6.11",
     "vue-i18n": "^8.17.3",
@@ -33,7 +32,7 @@
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^6.2.2",
     "jquery": "^3.5.0",
-    "sass": "^1.55.0",
+    "sass": "^1.56.1",
     "sass-loader": "^8.0.2",
     "vue-template-compiler": "^2.6.11"
   },
