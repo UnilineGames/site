@@ -8,8 +8,10 @@
     "yarn": "1.22.17"
   },
   "scripts": {
-    "serve": "vue-cli-service serve --ignore-engines",
-    "build": "vue-cli-service build --ignore-engines",
+    "serve": "vue-cli-service serve",
+    "serve local": "vue-cli-service serve --ignore-engines",
+    "build": "vue-cli-service build",
+    "build local": "vue-cli-service build --ignore-engines",
     "lint": "vue-cli-service lint",
     "start": "node server.js"
   },
