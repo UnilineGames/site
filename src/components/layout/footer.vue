@@ -22,7 +22,7 @@
   import Language from '@/components/shared/language';
 
   export default {
-    name: 'footer',
+    name: 'LayoutFooter',
     components: {
       Language,
     },

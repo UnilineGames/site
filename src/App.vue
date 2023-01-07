@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <Header id="header" name="header"></Header>
+    <LayoutHeader id="header" name="header"></LayoutHeader>
     <div class="content-main">
       <Game
         v-for="gameData in gamesData"
@@ -17,14 +17,14 @@
       >
       </Game>
     </div>
-    <Footer id="footer"></Footer>
+    <LayoutFooter id="footer"></LayoutFooter>
   </div>
 </template>
 
 <script>
-import Footer from '@/components/layout/footer';
+import LayoutFooter from '@/components/layout/footer';
 import Game from '@/components/content/game';
-import Header from '@/components/layout/header';
+import LayoutHeader from '@/components/layout/header';
 import GamesData from './assets/constants/gamesData';
 
 export default {
@@ -35,9 +35,9 @@ export default {
     }
   },
   components: {
-    Footer,
+    LayoutFooter,
     Game,
-    Header,
+    LayoutHeader,
   }
 }
 </script>

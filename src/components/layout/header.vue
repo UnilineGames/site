@@ -43,7 +43,7 @@
 <script>
   import Social from "../shared/social";
   export default {
-    name: 'header',
+    name: 'LayoutHeader',
     components: {Social},
     data: function () {
       return {
