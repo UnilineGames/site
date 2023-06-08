@@ -7,7 +7,7 @@
         </div>
         <div class="col-md-6 col-xs-12">
           <a
-            :href="$i18n.locale==='ru' ? './policy_android.html' : './policy_android_eng.html'"
+            :href="$i18n.locale==='ru' ? './privacy_ru.html' : './privacy_eng.html'"
             class="footer_link link link-white"
           >
             {{ $t('footer.privacy_policy') }}
