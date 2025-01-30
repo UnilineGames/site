@@ -2,6 +2,11 @@
   "header": {
     "subtitle": "We make cool, interesting, fun mobile games"
   },
+  "mlu": {
+    "name": "Little Universe My Tiny Planet",
+    "title": "Create Your Own Path to Greatness!",
+    "description": "Welcome to the perfect sandbox world! Create your own universe, explore the vast lands,\n Complete quests and survive in a dynamic world. Explore unique biomes, discover\nsecrets and rare treasures. Use the crafting system to create weapons, tools, and buildings., \n necessary for protection and prosperity. Strengthen bases, develop skills and uncover the secrets of the world. \n Manage your universe, experiment with resources and create new life forms. \n Take part in epic quests, solve puzzles and form alliances. \n Engage in exciting battles and demonstrate your skills in multiplayer mode. \n<br><br>Start your unique adventure right now!"
+  },
   "koth": {
     "name": "King of the hill",
     "title": "Become a master of battles with a crowd of opponents!",
@@ -38,7 +43,9 @@
     "image_matching": "Image matching",
     "memory_puzzle": "Memory puzzle",
     "match_pair": "Match pair",
-    "without_the_internet": "Without the internet"
+    "without_the_internet": "Without the internet",
+    "adventures": "Adventures",
+    "arcade": "Arcade"
   },
   "content": {
     "video": {

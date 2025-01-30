@@ -1,5 +1,39 @@
 export const GamesData = [
   {
+    id: 'mlu',
+    logo: 'content/mlu/logo.jpg',
+    name: 'Little Universe My Tiny Planet',
+    title: 'Создайте свой путь к величию!',
+    tags: ['adventures', 'arcade'],
+    playMarketLink: 'https://play.google.com/store/apps/details?id=com.uniline.games.mylittleuniverseevolution',
+    screens: {
+      ru: [
+        'content/mlu/screen/ru/1.jpg',
+        'content/mlu/screen/ru/2.jpg',
+        'content/mlu/screen/ru/3.jpg',
+        'content/mlu/screen/ru/4.jpg',
+        'content/mlu/screen/ru/5.jpg',
+        'content/mlu/screen/ru/6.jpg',
+      ],
+      en: [
+        'content/mlu/screen/en/1.jpg',
+        'content/mlu/screen/en/2.jpg',
+        'content/mlu/screen/en/3.jpg',
+        'content/mlu/screen/en/4.jpg',
+        'content/mlu/screen/en/5.jpg',
+        'content/mlu/screen/en/6.jpg',
+      ]
+    },
+    description: 'Добро пожаловать в идеальный мир-песочницу! Создай свою вселенную, исследуй необъятные земли,\n' +
+        '         выполняй квесты и выживай в динамическом мире. Исследуй уникальные биомы, открывай\n ' +
+        '         секреты и редкие сокровища. С помощью системы крафта создай оружие, инструменты и постройки, \n' +
+        '         необходимые для защиты и процветания. Укрепляй базы, развивай навыки и раскрывай тайны мира. \n' +
+        '         Управляй своей вселенной, экспериментируй с ресурсами и создавай новые формы жизни. \n' +
+        '         Участвуй в эпичных квестах, решай головоломки и создавай альянсы. \n' +
+        '         Вступай в захватывающие битвы и демонстрируй своё мастерство в многопользовательском режиме. \n' +
+        '         <br><br>Начни своё уникальное приключение прямо сейчас!',
+  },
+  {
     id: 'koth',
     logo: 'content/koth/logo.jpg',
     name: 'King of the hill',
